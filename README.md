@@ -13,5 +13,5 @@ Popcorn as been added as a subtree, and so you will need `git subtree` to update
 ```bash
 $ git remote add popcorn git@github.com:montagejs/popcorn.git
 $ git fetch popcorn
-$ git subtree pull --squash -prefix=assets/popcorn popcorn/master
+$ git subtree pull --squash --prefix=assets/popcorn popcorn master
 ```
